@@ -1,16 +1,14 @@
 {
   "files": {
     "main.css": "/ccolston07/Levi_Colston/static/css/main.073c9b0a.css",
-    "main.js": "/ccolston07/Levi_Colston/static/js/main.b4618b63.js",
-    "static/js/787.5809834d.chunk.js": "/ccolston07/Levi_Colston/static/js/787.5809834d.chunk.js",
+    "main.js": "/ccolston07/Levi_Colston/static/js/main.bfb672a8.js",
     "static/media/logo.svg": "/ccolston07/Levi_Colston/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ccolston07/Levi_Colston/index.html",
     "main.073c9b0a.css.map": "/ccolston07/Levi_Colston/static/css/main.073c9b0a.css.map",
-    "main.b4618b63.js.map": "/ccolston07/Levi_Colston/static/js/main.b4618b63.js.map",
-    "787.5809834d.chunk.js.map": "/ccolston07/Levi_Colston/static/js/787.5809834d.chunk.js.map"
+    "main.bfb672a8.js.map": "/ccolston07/Levi_Colston/static/js/main.bfb672a8.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.b4618b63.js"
+    "static/js/main.bfb672a8.js"
   ]
 }
