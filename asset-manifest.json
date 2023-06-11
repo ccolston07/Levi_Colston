@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ccolston07/Levi_Colston/static/css/main.073c9b0a.css",
-    "main.js": "/ccolston07/Levi_Colston/static/js/main.bf0cd18c.js",
-    "static/media/logo.svg": "/ccolston07/Levi_Colston/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/ccolston07/Levi_Colston/index.html",
-    "main.073c9b0a.css.map": "/ccolston07/Levi_Colston/static/css/main.073c9b0a.css.map",
-    "main.bf0cd18c.js.map": "/ccolston07/Levi_Colston/static/js/main.bf0cd18c.js.map"
+    "main.css": "/Levi_Colston/static/css/main.073c9b0a.css",
+    "main.js": "/Levi_Colston/static/js/main.234136bd.js",
+    "static/media/logo.svg": "/Levi_Colston/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Levi_Colston/index.html",
+    "main.073c9b0a.css.map": "/Levi_Colston/static/css/main.073c9b0a.css.map",
+    "main.234136bd.js.map": "/Levi_Colston/static/js/main.234136bd.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.bf0cd18c.js"
+    "static/js/main.234136bd.js"
   ]
 }
