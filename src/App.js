@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header headerTitle={headerTitle}/>
+      <p style={{color: "white", padding: "50px"}}>This is still a work in progress!</p>
       <BottomInfoBar />
     </div>
   );

@@ -1,5 +1,6 @@
 .divBox {
     border: 2px solid white;
+    border-radius: 20px;
     display: grid;
     justify-items: center;
     
