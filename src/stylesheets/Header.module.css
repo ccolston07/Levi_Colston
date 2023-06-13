@@ -1,0 +1,40 @@
+.h1 {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    padding-left: 50px;
+}
+
+.h1Start {
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    padding-left: 125px;
+}
+
+.hr {
+    width: 95%;
+    height: 2px;
+    border: 0;
+    background-color: white;
+}

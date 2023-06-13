@@ -1,11 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+//import './stylesheets/App.css';
+import Header from "./components/Header";
+import BottomInfoBar from "./components/BottomInfoBar";
+import React, { useState } from "react";
 
 function App() {
+  const [headerTitle, setHeaderTitle] = useState("Software Engineer")
+  
+  const handleChangeTitle = (e) => {
+    
+    setHeaderTitle(e.target.name);
+  }
+
   return (
     <div className="App">
-      <h1>This is a test</h1>
-      <p>This site is currently a work in progress.</p>
+      <Header headerTitle={headerTitle}/>
+      <BottomInfoBar />
     </div>
   );
 }

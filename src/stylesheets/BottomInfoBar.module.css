@@ -1,0 +1,30 @@
+.divBox {
+    border: 2px solid white;
+    display: grid;
+    justify-items: center;
+    
+    position: absolute;
+    bottom: 50px;
+    width: 60%;
+    margin-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.a {
+    font-family: 'Inter';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.a:hover {
+    color: gray;
+    cursor: pointer;
+}
