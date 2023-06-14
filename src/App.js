@@ -1,20 +1,22 @@
-//import './stylesheets/App.css';
-import Header from "./components/Header";
-import BottomInfoBar from "./components/BottomInfoBar";
 import React, { useState } from "react";
 
+import Header from "./components/Header";
+import BottomInfoBar from "./components/BottomInfoBar";
+import ButtonBar from "./components/ButtonBar";
+
 function App() {
-  const [headerTitle, setHeaderTitle] = useState("Software Engineer")
+  const [headerTitle, setHeaderTitle] = useState("Software Engineer");
+  const [buttonNames, setButtonNames] = useState(["Experience", "Projects", "Education", "Interests"]);
   
   const handleChangeTitle = (e) => {
     
     setHeaderTitle(e.target.name);
-  }
+  };
 
   return (
-    <div className="App">
+    <div style={{height: "100vh"}}>
       <Header headerTitle={headerTitle}/>
-      <p style={{color: "white", padding: "50px"}}>This is still a work in progress!</p>
+      <ButtonBar buttonNames={buttonNames}/>
       <BottomInfoBar />
     </div>
   );
