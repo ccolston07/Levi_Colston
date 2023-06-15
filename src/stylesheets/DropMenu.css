@@ -1,0 +1,55 @@
+#dropMenu {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 200px;
+
+    z-index: 0;
+
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 2px 2px gray;
+
+    transition: transform .5s
+        cubic-bezier(0, .52, 0, 1);
+}
+
+#dropMenu.ExperienceShow {
+    transform: translate3d(0, 0vh, 0);
+    height: 175px;
+}
+
+#dropMenu.ExperienceHidden {
+    transform: translate3d(0, -30vh, 0);
+    height: 175px;
+}
+
+#dropMenu.ProjectsShow {
+    transform: translate3d(0, 0vh, 0);
+    height: 225px;
+}
+
+#dropMenu.ProjectsHidden {
+    transform: translate3d(0, -30vh, 0);
+    height: 225px;
+}
+
+#dropMenu.EducationShow {
+    transform: translate3d(0, 0vh, 0);
+    height: 75px;
+}
+
+#dropMenu.EducationHidden {
+    transform: translate3d(0, -30vh, 0);
+    height: 75px;
+}
+
+#dropMenu.InterestsShow {
+    transform: translate3d(0, 0vh, 0);
+    height: 125px;
+}
+
+#dropMenu.InterestsHidden {
+    transform: translate3d(0, -30vh, 0);
+    height: 125px;
+}

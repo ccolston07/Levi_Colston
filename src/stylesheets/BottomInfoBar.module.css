@@ -1,31 +1,31 @@
-.divBox {
-    border: 2px solid white;
-    border-radius: 20px;
+.grid {
     display: grid;
-    justify-items: center;
-    
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.divBox {
+    display: inline-block;
     position: fixed;
-    bottom: 50px;
-    width: 60%;
-    margin-left: 100px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    right: 20px;
+    top: 32px;
 }
 
 .a {
     font-family: 'Inter';
-    font-size: 24px;
-    color: white;
+    font-size: 22px;
+    color: black;
     text-decoration: none;
-
-    -webkit-text-stroke-width: 0.25px;
-    -webkit-text-stroke-color: black;
-
-    grid-row-start: 1;
-    grid-row-end: 1;
 }
 
 .a:hover {
-    color: gray;
+    color: blue;
     cursor: pointer;
 }
+
+@media (max-width: 767px) {
+    .divBox {
+        display: none;
+    }
+}
+

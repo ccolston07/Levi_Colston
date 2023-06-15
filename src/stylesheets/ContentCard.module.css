@@ -1,0 +1,29 @@
+.card {
+    border: 2px solid black;
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+
+    width: 100%;
+    padding: 10px 0;
+    z-index: 2;
+
+    background-color: #404040;
+    color: white;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: black;
+
+    transition: transform .5s
+        cubic-bezier(0, .52, 0, 1);
+}
+
+.card:hover {
+    transform: translate3d(0, 1vh, 0);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .card {
+        font-size: 20px;
+    }
+}

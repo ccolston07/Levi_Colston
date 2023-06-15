@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 
 import Header from "./components/Header";
-import BottomInfoBar from "./components/BottomInfoBar";
-import ButtonBar from "./components/ButtonBar";
+import ContentBar from "./components/ContentBar";
 
 function App() {
   const [headerTitle, setHeaderTitle] = useState("Software Engineer");
-  const [buttonNames, setButtonNames] = useState(["Experience", "Projects", "Education", "Interests"]);
   
   const handleChangeTitle = (e) => {
     
@@ -16,8 +14,7 @@ function App() {
   return (
     <div style={{height: "100vh"}}>
       <Header headerTitle={headerTitle}/>
-      <ButtonBar buttonNames={buttonNames}/>
-      <BottomInfoBar />
+      <ContentBar />
     </div>
   );
 }
